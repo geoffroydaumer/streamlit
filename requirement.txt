@@ -81,3 +81,4 @@ watchdog==2.1.9
 wcwidth==0.2.5
 Werkzeug==2.2.2
 zipp==3.10.0
+sklearn==0.0.post1
