@@ -1,7 +1,10 @@
 import pickle
 import streamlit as st
 import time
-
+from sklearn.preprocessing import StandardScaler
+from sklearn.neighbors import KNeighborsClassifier
+import pandas as pd
+import numpy as np
 # Import pickle data 
 pickle_in = open("model.pkl","rb")
 export = pickle.load(pickle_in)
