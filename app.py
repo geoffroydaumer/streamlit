@@ -2,7 +2,9 @@ import pickle
 import streamlit as st
 import time
 
+
 # Import pickle data 
+
 pickle_in = open("model.pkl","rb")
 export = pickle.load(pickle_in)
 pickle_in.close()
